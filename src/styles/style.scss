@@ -1,0 +1,11 @@
+* {
+	box-sizing: border-box;
+	&::selection {
+		background-color: transparent;
+	}
+}
+
+body {
+	margin: 0;
+	overflow: hidden;
+}
